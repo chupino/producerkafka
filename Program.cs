@@ -9,7 +9,7 @@ namespace DotnetKafka
         {
             var config = new ProducerConfig
             {
-                BootstrapServers = "107.20.21.85:9093"
+                BootstrapServers = "18.208.213.203:9093"
             };
 
             using (var producer = new ProducerBuilder<Null, string>(config).Build())
